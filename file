@@ -1,0 +1,13 @@
+class A {
+enum Asize{s, M, L}
+Asize size;
+}
+public class Atest {
+
+  public static void main(sting args[]) {
+  A juice = new A ();
+  juice.size = A.Asize.M;
+  system.out.println('size: "+juice.size);
+  }
+  }
+
